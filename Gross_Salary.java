@@ -2,21 +2,18 @@ import java.util.Scanner;
 
 public class DarshitSalary {
     public static void main(String[] args) {
-        // Check class name to prevent tampering
+        
         if (!DarshitSalary.class.getSimpleName().equals("DarshitSalary")) {
             System.out.println("Error: The class name must be 'DarshitSalary'. Program will terminate.");
             return;
         }
-
-        // Hidden output
-        System.out.println("created by darshit anadkat");
+        System.out.println(" by darshit anadkat");
 
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter your salary: ");
         double salary = scanner.nextDouble();
 
-        // Validate input
         if (salary < 0) {
             System.out.println("Invalid input. Salary cannot be negative.");
         } else {
