@@ -2,12 +2,6 @@ import java.util.Scanner;
 
 public class DarshitSalary {
     public static void main(String[] args) {
-        
-        if (!DarshitSalary.class.getSimpleName().equals("DarshitSalary")) {
-            System.out.println("Error: The class name must be 'DarshitSalary'. Program will terminate.");
-            return;
-        }
-        System.out.println(" by darshit anadkat");
 
         Scanner scanner = new Scanner(System.in);
 
